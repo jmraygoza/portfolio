@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+header {
+    display: flex;
+    background-color:blanchedalmond;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a i {
+    color: white;
+    font-size: 2em;
+    padding: 0.5em;
+}
+
+nav ul {
+    display: flex;
+    gap: 1.1em;
+    margin: 1em;
+}
+
+.seccion-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.seccion-2 img {
+    width: 100%;
+}
+
+.acerca-imagen {
+    padding: 1em;
+}
+
+.columnas {
+    display: flex;
+    gap: 4em;
+}
+
+.izquierda .centro .derecha {
+    background-color: beige;
+    border-radius: 20px;
+    border-color: black;
+
+}
+
+@media (min-width: 768px){
+    .acerca-de {
+        font-size: 20px;
+        justify-content: center;
+    }
+
+}

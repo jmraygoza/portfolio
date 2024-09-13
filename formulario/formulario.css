@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    display: flex;
+    background-color:blanchedalmond;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a i {
+    color: white;
+    font-size: 2em;
+    padding: 0.5em;
+}
+
+nav ul {
+    display: flex;
+    gap: 1.1em;
+    margin: 1em;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.titulo_seccion {
+    position: relative;
+    font-size: 40px;
+    color: #003750;
+    text-align: center;
+  }
+  .container {
+    max-width: 40em; /* Define el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 1em; /* Agrega un poco de espacio alrededor del formulario */
+    border:#0056b3; /* Agrega un borde al contenedor */
+    border-radius: 10%; /* Agrega bordes redondeados al contenedor */
+    border-color: #0e0d0d;
+  }
+  .form-group {
+    margin-bottom: 15px; /* Espacio entre cada input */
+    margin-left: 2em;
+  }
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align:left;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 15em; /* Define el ancho máximo del input */
+    padding: 8px;
+    border: 1px solid #0e0d0d;
+    border-radius: 4px;
+    vertical-align: top;
+  }
+
+  /* #mail {
+    margin-left: 2em;
+  } */
+
+
+  textarea {
+    resize: vertical; /* Permite redimensionar verticalmente el textarea */
+  }
+  button {
+   background-color: aqua;
+   border-radius: 5px;
+   padding: 0.5em;
+   margin: 2em;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
